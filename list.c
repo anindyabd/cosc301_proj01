@@ -71,3 +71,4 @@ void sorted_insert(int data, Node **head) {
     }
     list_print(head);
 }*/
+
