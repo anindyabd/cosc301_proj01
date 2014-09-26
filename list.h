@@ -3,8 +3,14 @@
 
 /* your list data structure declarations */
 
+typedef struct node {
+    int data; 
+    struct node *next;
+} Node;
 
 /* your function declarations associated with the list */
+void list_print(const Node *list);
+void sorted_insert(int data, Node **head);
 
 
 #endif // __LIST_H__
