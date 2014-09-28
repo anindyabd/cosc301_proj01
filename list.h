@@ -11,6 +11,6 @@ typedef struct node {
 /* your function declarations associated with the list */
 void list_print(const Node *list);
 void sorted_insert(int data, Node **head);
-
+void list_clear(Node *list);
 
 #endif // __LIST_H__
