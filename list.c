@@ -26,6 +26,7 @@ void sorted_insert(int data, Node **head) {
     if ((*head) == NULL) {
         Node *newnode = malloc(sizeof(Node));
         newnode->data = data;
+        newnode->next = NULL;
         *head = newnode; 
     }
     else if ((*head)->data >= data) {
